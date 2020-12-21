@@ -1,4 +1,4 @@
-import {useLayoutEffect, useState} from "react";
+import {useEffect, useState} from "react";
 
 export type ThemeName = "light" | "dark";
 
@@ -17,7 +17,7 @@ export function useTheme(): {
 		}
 	}
 
-	useLayoutEffect(
+	useEffect(
 		() => {
 			const darkOS = window.matchMedia("(prefers-color-scheme: dark)").matches;
 			if (darkOS) {
