@@ -1,7 +1,7 @@
 {
   "name": "react-hook-tailwind-darkmode",
   "description": "This is a React hook changing darkmode in Tailwind CSS.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "types": "useTheme.d.ts",
   "license": "MIT",
