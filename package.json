@@ -1,0 +1,38 @@
+{
+  "name": "react-hook-tailwind-darkmode",
+  "description": "This is a React hook changing darkmode in Tailwind CSS.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Thomas <thomas18thx@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkeiyama/react-hook-tailwind-darkmode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tkeiyama/react-hook-tailwind-darkmode/issues"
+  },
+  "homepage": "https://github.com/tkeiyama/react-hook-tailwind-darkmode#readme",
+  "keywords": [
+    "react",
+    "react hook",
+    "tailwindcss",
+    "darkmode"
+  ],
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json",
+    "lint": "rome check src",
+    "patch": "yarn version --patch"
+  },
+  "dependencies": {
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "rome": "^10.0.4-beta",
+    "typescript": "^4.1.3"
+  }
+}
