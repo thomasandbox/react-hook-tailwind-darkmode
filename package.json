@@ -3,6 +3,7 @@
   "description": "This is a React hook changing darkmode in Tailwind CSS.",
   "version": "0.0.1",
   "main": "index.js",
+  "types": "useTheme.d.ts",
   "license": "MIT",
   "author": "Thomas <thomas18thx@gmail.com>",
   "repository": {
@@ -20,7 +21,8 @@
     "darkmode"
   ],
   "files": [
-    "*.js"
+    "*.js",
+    "*.d.ts"
   ],
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
