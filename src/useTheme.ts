@@ -1,11 +1,11 @@
 import {useEffect, useState} from "react";
 
-export type ThemeName = "light" | "dark";
+export type ThemeType = "light" | "dark";
 
 export function useTheme(): {
 	changeTheme: () => void;
 } {
-	const [theme, setTheme] = useState<ThemeName>("light");
+	const [theme, setTheme] = useState<ThemeType>("light");
 
 	function changeTheme() {
 		if (theme === "light") {
