@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.0.7
+
+Nothing.
+This update is because I forgot to execute the build script.
+
 ## v0.0.6
 
 Added the theme property to return.
