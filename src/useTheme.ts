@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 export type ThemeType = "light" | "dark";
 
 export function useTheme(): {
+	theme: ThemeType;
 	changeTheme: () => void;
 } {
 	const [theme, setTheme] = useState<ThemeType>("light");
@@ -27,5 +28,5 @@ export function useTheme(): {
 		[],
 	);
 
-	return {changeTheme};
+	return {theme, changeTheme};
 }

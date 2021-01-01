@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.0.6
+
+Added the theme property to return.
+
 ## v0.0.5
 
 BREAKING CHANGE
